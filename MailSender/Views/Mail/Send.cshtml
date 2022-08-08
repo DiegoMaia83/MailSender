@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "Send";
+}
+
+<form action="" method="post">
+
+    <div class="row justify-content-center mt-5">
+
+        <div class="col-sm-4">
+
+            <div class="alert alert-warning" role="alert">
+                @ViewBag.Message
+            </div>
+
+            <label>Nome</label>
+            <input class="form-control mb-3" type="text" name="Nome" value="" />
+
+            <label>E-mail</label>
+            <input class="form-control mb-3" type="text" name="Email" value="" placeholder="Email" />
+
+            <label>Mensagem</label>
+            <textarea class="form-control mb-3" name="Mensagem">Mensagem</textarea>
+
+            <input class="btn btn-outline-secondary w-100" type="submit" />
+
+        </div>
+
+    </div>
+
+</form>
+
+
+
